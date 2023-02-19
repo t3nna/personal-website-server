@@ -3,8 +3,14 @@ const { PORT } = require("./config");
 const { apiRouter } = require("./routers");
 const { NotFoundApiError } = require("./validators/errors/ApiError");
 const errorHandler = require('./validators/middlewares/errorHandler')
+const useMiddlewares = require('./middlewares')
 
 const app = express()
+
+
+//middlewares
+
+useMiddlewares(app)
 
 //api routes
 

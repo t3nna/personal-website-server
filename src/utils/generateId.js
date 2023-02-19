@@ -1,5 +1,5 @@
 const {v4: uuidv4} = require('uuid')
 
 module.exports = {
-  genrateId: () => uuidv4()
+  generateId: () => uuidv4()
 }
