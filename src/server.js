@@ -28,3 +28,6 @@ app.listen(PORT, ()=>{
   console.log(`Server is running on port ${PORT}`);
 })
 
+
+// #TODO: featured posts, handling errors, think about logs
+

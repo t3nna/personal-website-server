@@ -1,7 +1,10 @@
-const path = require("path");
-const {  blogsFile } = require("../../config");
-module.exports=(req, res, next) =>{
-  const text = require(blogsFile)
+const { getAllBlogs } = require("../../services");
+module.exports= async(req, res, next) =>{
+  try{
 
-  return res.send(text)
+    const blogs = await getAllBlogs()
+    res.send(blogs)
+  }catch (e){
+    next(e)
+  }
 }
