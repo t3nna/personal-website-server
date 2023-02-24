@@ -9,10 +9,25 @@ module.exports = async (req, res, next) => {
       throw new BadRequestApiError('please provide "content"')
     }
 
-    // TODO: validation, save logs, download DB
+    // TODO: validation, save logs
+
+    const requiredFields =
+      ["name","id",'style','type','cover','embedVideo',
+        'carousel','projectTeam', "description", "body"];
+
+
+
+    requiredFields.forEach((field) => {
+      if (!content[field]) {
+        throw new BadRequestApiError(`Missing ${field} in request body, \n all required fields: ${requiredFields.join(', ')}`);
+      }
+    })
+    if(Object.keys(content).length !== requiredFields.length){
+     throw new BadRequestApiError(`Please provide all required fields: ${requiredFields.join(', ')}`)
+    }
 
     const blogs = require(blogsFile);
-    content.created = `${new Date()}`
+    content.created = new Date().toJSON()
     blogs.push(content)
     console.log(blogs);
 

@@ -1,5 +1,5 @@
 class ApiError extends Error{
-  constructor(status, message){
+  constructor(status, message, requiredFields){
     super(message);
 
     this.status = status;
@@ -11,8 +11,8 @@ class ApiError extends Error{
 }
 
 class BadRequestApiError extends ApiError{
-  constructor(message){
-    super(400, message);
+  constructor(message, requiredFields){
+    super(400, message, requiredFields);
   }
 }
 

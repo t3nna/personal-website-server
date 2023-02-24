@@ -16,7 +16,7 @@ module.exports = async (req, res, next) => {
     console.log(result);
 
 
-    res.json({test: 'yes'});
+    res.json(result);
 
   } catch (e) {
     next(e);
