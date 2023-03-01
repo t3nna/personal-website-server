@@ -6,6 +6,7 @@ const getProjects = require("./getProjects")
 const getSingleProject = require("./getSingleProject")
 const getFeatured = require("./getFeatured")
 const downloadFiles = require("./downloadFiles")
+const getLogs = require("./getLogs")
 
 module.exports = {
   ping,
@@ -15,5 +16,6 @@ module.exports = {
   getProjects,
   getSingleProject,
   getFeatured,
-  downloadFiles
+  downloadFiles,
+  getLogs,
 }

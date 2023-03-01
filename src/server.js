@@ -4,6 +4,8 @@ const { apiRouter } = require("./routers");
 const { NotFoundApiError } = require("./validators/errors/ApiError");
 const errorHandler = require('./validators/middlewares/errorHandler')
 const useMiddlewares = require('./middlewares')
+const http = require("http");
+const upgradeWs = require("./ws");
 
 const app = express()
 
@@ -24,10 +26,13 @@ app.use((req,res, next) =>{
 
 app.use(errorHandler)
 
-app.listen(PORT, ()=>{
+const server = http.createServer(app)
+
+upgradeWs(server)
+
+server.listen(PORT, ()=>{
   console.log(`Server is running on port ${PORT}`);
 })
 
 
-// #TODO: featured posts, handling errors, think about logs
 

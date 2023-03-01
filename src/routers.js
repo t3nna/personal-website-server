@@ -11,6 +11,7 @@ apiRouter.get('/projects', api.getProjects)
 apiRouter.get('/projects/:id', api.getSingleProject)
 apiRouter.get('/featured', api.getFeatured)
 apiRouter.get('/files/:filename', api.downloadFiles)
+apiRouter.get('/logs', api.getLogs)
 
 module.exports = {
   apiRouter,
