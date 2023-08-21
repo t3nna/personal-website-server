@@ -1,6 +1,6 @@
 node_modules
 
-db/**/*
+
 !db/.gitkeep
 !db/svg
 
@@ -8,3 +8,5 @@ db/svg/*
 !db/svg/.gitkeep
 
 .DS_Store
+
+package-lock.json

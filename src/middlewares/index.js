@@ -15,9 +15,7 @@ module.exports = (app) =>{
   app.use(disablePoweredBy);
 
   app.use(
-    cors({
-      origin: ['https://svdom.com', 'http://localhost:3001'],
-    })
+    cors()
   );
 
   app.use(

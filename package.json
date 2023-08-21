@@ -16,7 +16,7 @@
     "prettier": "^2.8.4"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "node src/server.js",
     "dev": "nodemon src/server"
   },
   "name": "personal-website-server",

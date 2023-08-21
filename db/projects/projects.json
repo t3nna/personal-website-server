@@ -1,0 +1,109 @@
+[
+  {
+    "name": "Crypto Wallet",
+    "id": "crypto-wallet",
+    "style": "text-bg-black",
+    "description": "You can create crypto wallet",
+    "type": "project",
+    "cover": "https://images.livemint.com/img/2023/01/15/600x338/crypto_1672800010904_1673797012152_1673797012152.jpg",
+    "embedVideo": "",
+    "carousel": [
+      "https://firebasestorage.googleapis.com/v0/b/personal-portfolio-b3bd6.appspot.com/o/crypto%2FPasted%20Graphic%201.jpg?alt=media&token=5a03de42-504e-4a7b-8000-ca3d30f4d657",
+      "https://firebasestorage.googleapis.com/v0/b/personal-portfolio-b3bd6.appspot.com/o/crypto%2FPasted%20Graphic.jpg?alt=media&token=a653122d-60e5-441f-a9e5-552eb2fe477b"
+    ],
+    "projectTeam": [
+      {
+        "name": "Creator",
+        "members": [
+          "Ivan Melnyk"
+        ]
+      }
+    ],
+    "body": "<p class=\"fs-body\">\n  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab commodi dolor eaque exercitationem\n  illo\n  mollitia\n  nesciunt, ut voluptatibus. Ab distinctio ducimus est fugit nam voluptatum?\n</p>\n<img\n  src=\"https://uploads-ssl.webflow.com/6229ff28081a13ed8a447ccc/626949ce30f7100955729ec7_%D0%9F%D0%B0%D1%80%D0%BA%D0%B8%203-p-2600.jpeg\"\n  alt=\"book\"/>\n<h2 class=\"fs-secondary-heading\">\n  +2,500 Questions\n</h2>\n<p class=\"fs-body\">\n  While LeetCode has become the unofficial standard for testing coding skills, many first-time\n  LeetCoders\n  find it daunting to go through more than 2,500 problems on the platform. For that reason, in\n  this video,\n  I will share an effective strategy for preparing for LeetCode. I broke the strategy into six\n  steps to\n  help you build a strong foundation in coding interview skills as quickly as possible. If you\n  are one of\n  those guys intimidated by the sheer number of questions, unsure where to start, and\n  unconfident of\n  pulling this off yourself, watch this video until the end because you'll walk away with a\n  clear game\n  plan.\n</p>\n<h2 class=\"fs-secondary-heading\">\n  Step 1. Start with the Top 100 Liked Questions\n\n\n</h2>\n<p class=\"fs-body\">\n  These are the questions upvoted by the community - other LeetCoders - and not selected by\n  the platform.\n  A question is upvoted if the community finds it clear, helpful, and practical. On the other\n  hand, a\n  problem is heavily downvoted if it's unclear, has too many tedious edge cases, or doesn't\n  involve the\n  general concepts of data structures and algorithms. You want to avoid those types of\n  problems in the\n  early stage because your initial focus should be on learning how to play the game instead of\n  battling a\n  boss. Clear and straightforward DSA-based questions can help you achieve that. Start with\n  about fifty\n  easy and mediums questions here. Avoid hard for now. Learn to play the game first.\n</p>\n\n<h2 class=\"fs-secondary-heading\">\n  Step 2. Focus on the questions by topic\n</h2>\n\n<p class=\"fs-body\">\n  Never solve random questions. Now that you have a taste of LeetCode, it's time to choose a\n  topic and\n  start drilling down. As you crack questions from the same topic, you'll realize there is a\n  pattern.\n  Realizing that pattern is the algorithm, the template, and the winning formula to mastering\n  LeetCode.\n  Once the idea clicks, you can use it to solve most of the problems in the topic. Just\n  remember. The more\n  you solve random problems, the longer it'll take for you to get that click. Solve at least\n  twenty\n  questions or until you get that \"click\" for each topic before moving on. Here's my\n  recommended list of\n  topics to get you started. For more help with data structures and algorithms, check out my\n  recommended\n  courses and\n  <a href=\"#\" class=\"link\">books</a>\n  .\n</p>\n<a class=\"btn-download fs-body\" href=\"#\">Download something</a>\n<h2 class=\"fs-secondary-heading\">\n  Step 3. Order the questions from the highest to lowest acceptance rate\n</h2>\n<p class=\"fs-body\">\n  Don't just blindly attempt easies. Some mediums are easier than easies, and some easies are\n  harder than\n  mediums. This is because the LeetCode difficulty level is subjective; the platform\n  determines it. On the\n  other hand, the acceptance rate is objective as it's community driven. Take a look yourself.\n  The\n  acceptance rate of some easies is lower than 50%, while that of some mediums is higher than\n  even 90%!\n  Leverage the stats. If others found it easier, you'll find it easier too.\n</p>\n<h2 class=\"fs-secondary-heading\">\n  Step 4. Learn from the solutions\n</h2>\n<p class=\"fs-body\">\n  Don't spend more than 45 minutes on each problem. If you're stuck, look up the answer and\n  move on. But\n  promise me this. Learn from the solutions. Like I said earlier, if you grind the problems on\n  the same\n  topic, you'll start to see the pattern and develop the technique needed to solve it. And\n  guess what? The\n  best place for that is none other than the solutions! Peeking at the solutions is the\n  fastest way to\n  learn from the experts. Don't feel guilty about it; it's okay as long as you learn from\n  them. If you\n  prefer more professional and structured help from industry pros, try Pathrise. Pathrise is a\n  career\n  accelerator that helps individuals find jobs through 1-on-1 mentorship, personalized\n  coaching, and\n  workshops. I used to work there as a mentor myself, and the first two weeks are free.\n\n</p>\n",
+    "links": {
+      "github": "",
+      "website": ""
+    },
+    "created": "2023-01-24T13:43:40.824Z"
+  },
+  {
+    "name": "Link Shortener",
+    "id": "crypto-tracker",
+    "style": "text-bg-black",
+    "description": "If you link is too long, this is perfect solution",
+    "type": "project",
+    "cover": "https://upload.wikimedia.org/wikipedia/commons/d/da/Internet2.jpg",
+    "embedVideo": "https://www.youtube.com/embed/JQDHz72OA3c",
+    "carousel": [
+      "https://firebasestorage.googleapis.com/v0/b/personal-portfolio-b3bd6.appspot.com/o/link-shortener%2FPasted%20Graphic%204.jpg?alt=media&token=d0810427-7cb3-4b99-8e68-46370e2d54a2"
+    ],
+    "projectTeam": [
+      {
+        "name": "Creator",
+        "members": [
+          "Ivan Melnyk"
+        ]
+      }
+    ],
+    "body": "<section>\n  <div class=\"container\">\n    <h1 class=\"fs-primary-heading\">\n      Hello\n    </h1>\n    <p class=\"fs-body\">\n      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aspernatur consequuntur enim eum facilis iure laborum perspiciatis quibusdam repellendus sed? Asperiores dicta illum ipsam laudantium, obcaecati repellendus sequi tempora vitae.\n    </p>\n  </div>\n</section>",
+    "links": {
+      "github": "",
+      "website": ""
+    },
+    "created": "2023-02-24T13:43:40.824Z"
+  },
+  {
+    "name": "Spotify statistics",
+    "id": "spotify-stats",
+    "style": "text-bg-black",
+    "description": "Check you Spotify Statistics",
+    "type": "project",
+    "cover": "https://images.ctfassets.net/c1zhnszcah7h/1arUUyP6oUDvDGWuwlQNZS/67b9e29542a047534c63582ce17dc3c3/Header_01_1.png?w=960&q=96",
+    "embedVideo": "",
+    "carousel": [
+      "https://firebasestorage.googleapis.com/v0/b/personal-portfolio-b3bd6.appspot.com/o/spotify%2FPasted%20Graphic%202.jpg?alt=media&token=8f22a1ea-da48-4392-8b42-85f8a4e175f5",
+      "https://firebasestorage.googleapis.com/v0/b/personal-portfolio-b3bd6.appspot.com/o/spotify%2FPasted%20Graphic%203.jpg?alt=media&token=0916027d-3403-420e-b835-b757a6190533"
+    ],
+    "projectTeam": [
+      {
+        "name": "Creator",
+        "members": [
+          "Ivan Melnyk"
+        ]
+      }
+    ],
+    "body": "<section>\n  <div class=\"container\">\n    <h1 class=\"fs-primary-heading\">\n      Hello\n    </h1>\n    <p class=\"fs-body\">\n      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aspernatur consequuntur enim eum facilis iure laborum perspiciatis quibusdam repellendus sed? Asperiores dicta illum ipsam laudantium, obcaecati repellendus sequi tempora vitae.\n    </p>\n  </div>\n</section>",
+    "links": {
+      "github":"",
+      "website": ""
+    },
+    "created": "2023-02-24T13:43:40.824Z"
+  },
+  {
+    "name": "Weather app",
+    "id": "weather-app",
+    "style": "text-bg-black",
+    "description": "Weather around the world",
+    "type": "project",
+    "cover": "http://www.nasa.gov/sites/default/files/thumbnails/image/smap-weather.jpg",
+    "embedVideo": "",
+    "carousel": [
+      "https://firebasestorage.googleapis.com/v0/b/personal-portfolio-b3bd6.appspot.com/o/weather%2FPasted%20Graphic%205.jpg?alt=media&token=d6e21f75-c982-4782-8186-ad1239211aa8",
+      "https://firebasestorage.googleapis.com/v0/b/personal-portfolio-b3bd6.appspot.com/o/weather%2FPasted%20Graphic%206.jpg?alt=media&token=fea64701-6faf-4dd3-ba96-10a751610e9f"
+    ],
+    "projectTeam": [
+      {
+        "name": "Creator",
+        "members": [
+          "Ivan Melnyk"
+        ]
+      }
+    ],
+    "body": "<section>\n  <div class=\"container\">\n    <h1 class=\"fs-primary-heading\">\n      Hello\n    </h1>\n    <p class=\"fs-body\">\n      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aspernatur consequuntur enim eum facilis iure laborum perspiciatis quibusdam repellendus sed? Asperiores dicta illum ipsam laudantium, obcaecati repellendus sequi tempora vitae.\n    </p>\n  </div>\n</section>",
+    "links": {
+      "github": "",
+      "website": ""
+    },
+    "created": "2023-02-24T13:43:40.824Z"
+  }
+]

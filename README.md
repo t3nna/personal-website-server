@@ -26,8 +26,8 @@ Returns a list of all blogs.
 
 Content-Type: application/json
 
-````
-{
+````json
+[{
 "id": 1,
 "title": "My First Blog",
 "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -40,8 +40,7 @@ Content-Type: application/json
 "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
 "createdAt": "2022-04-08T12:45:13.000Z",
 "updatedAt": "2022-04-08T12:45:13.000Z"
-},
-...
+}]
 ````
 Get a Single Blog
 
@@ -54,7 +53,7 @@ css
 Copy code
 HTTP/1.1 200 OK
 Content-Type: application/json
-```
+```json
  {
     "name": "How to learn JS efficient",
     "id": "js-learn",
@@ -79,7 +78,7 @@ Content-Type: application/json
       }
 
     ],
-    "body": "html here..."
+    "body": "html here...",
     "created": "2023-01-10T13:43:40.824Z"
   }
 ```
@@ -97,7 +96,7 @@ Response
 Content-Type: application/json
 
 
-```
+```json
  {
     "name": "How to learn JS efficient",
     "id": "js-learn",
@@ -122,7 +121,7 @@ Content-Type: application/json
       }
 
     ],
-    "body": "html here..."
+    "body": "html here...",
     "created": "2023-01-10T13:43:40.824Z"
   }
 ```
