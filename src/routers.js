@@ -10,6 +10,7 @@ apiRouter.get('/blogs/:id', api.getSingleBlog)
 apiRouter.get('/projects', api.getProjects)
 apiRouter.get('/projects/:id', api.getSingleProject)
 apiRouter.get('/featured', api.getFeatured)
+apiRouter.get('/setup', api.getSetup)
 apiRouter.get('/files/:filename', api.downloadFiles)
 apiRouter.get('/logs', api.getLogs)
 
