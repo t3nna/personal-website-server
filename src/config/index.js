@@ -1,10 +1,10 @@
-const path = require("path")
+const path = require("path");
 
-const dbFolder = path.resolve(__dirname, "../../db")
-const blogsFile = path.resolve(dbFolder, 'blogs/blogs.json')
-const projectsFile = path.resolve(dbFolder, 'projects/projects.json')
-const featuredFile = path.resolve(dbFolder, 'featured/featured.json')
-const setupFile = path.resolve(dbFolder, 'setup/setup.json')
+const dbFolder = path.resolve(__dirname, "../../db");
+const blogsFile = path.resolve(dbFolder, "blogs/blogs.json");
+const projectsFile = path.resolve(dbFolder, "projects/projects.json");
+const featuredFile = path.resolve(dbFolder, "featured/featured.json");
+const setupFile = path.resolve(dbFolder, "setup/setup.json");
 
 console.log(projectsFile);
 
@@ -14,6 +14,5 @@ module.exports = {
   blogsFile,
   projectsFile,
   featuredFile,
-  setupFile
-}
-
+  setupFile,
+};

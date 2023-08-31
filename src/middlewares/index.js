@@ -1,22 +1,19 @@
-const { json } = require('express');
-const disablePoweredBy = require('./disablePoweredBy');
-const requestId = require('./requestId');
-const routesLogger = require('./routesLogger');
+const { json } = require("express");
+const disablePoweredBy = require("./disablePoweredBy");
+const requestId = require("./requestId");
+const routesLogger = require("./routesLogger");
 
-const cors = require('cors');
-const helmet = require('helmet');
-const rateLimiter = require('express-rate-limit');
-const slowDown = require('express-slow-down');
+const cors = require("cors");
+const helmet = require("helmet");
+const rateLimiter = require("express-rate-limit");
+const slowDown = require("express-slow-down");
 
-
-module.exports = (app) =>{
+module.exports = (app) => {
   app.use(json());
 
   app.use(disablePoweredBy);
 
-  app.use(
-    cors()
-  );
+  app.use(cors());
 
   app.use(
     helmet({
@@ -26,8 +23,8 @@ module.exports = (app) =>{
           scriptSrc: [
             "'self'",
             "'unsafe-inline'",
-            'https://cdn.jsdelivr.net',
-            'https://code.jquery.com',
+            "https://cdn.jsdelivr.net",
+            "https://code.jquery.com",
           ],
         },
       },
@@ -51,4 +48,4 @@ module.exports = (app) =>{
   app.use(requestId);
 
   app.use(routesLogger);
-}
+};

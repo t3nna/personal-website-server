@@ -18,6 +18,8 @@
   },
   "scripts": {
     "start": "node src/server.js",
+    "lint": "eslint --ignore-path .gitignore .",
+    "format": "prettier --ignore-path .gitignore --write \"**/*{js,jsx,css,scss}\"",
     "dev": "nodemon src/server"
   },
   "name": "personal-website-server",

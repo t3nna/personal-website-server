@@ -1,3 +1,2 @@
-const mongoose = require('mongoose')
-const {Blog} = require('./schemes')
-
+const mongoose = require("mongoose");
+const { Blog } = require("./schemes");

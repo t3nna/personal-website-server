@@ -10,7 +10,6 @@ const mongoose = require("mongoose");
 
 const app = express();
 
-
 //middlewares
 
 useMiddlewares(app);
@@ -36,9 +35,7 @@ upgradeWs(server);
 // })
 (async () => {
   try {
-    await mongoose.connect(
-      "mongodb://127.0.0.1:27017/personal-website"
-    );
+    await mongoose.connect("mongodb://127.0.0.1:27017/personal-website");
     server.listen(PORT, () => {
       console.log(`Server Started on port ${PORT}`);
     });
@@ -47,8 +44,4 @@ upgradeWs(server);
   }
 })();
 
-
 // TODO: Replace json with mongo
-
-
-

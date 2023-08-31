@@ -1,6 +1,6 @@
-const { generateId } = require('../utils/generateId');
+const { generateId } = require("../utils/generateId");
 
-const REQUEST_ID_HEADER_NAME = 'X-Request-Id';
+const REQUEST_ID_HEADER_NAME = "X-Request-Id";
 
 module.exports = (req, res, next) => {
   const requestIdHeader = req.headers[REQUEST_ID_HEADER_NAME.toLowerCase()];

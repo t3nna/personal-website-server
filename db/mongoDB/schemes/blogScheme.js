@@ -1,19 +1,18 @@
-const mongoose = require('mongoose')
-const projectTeamSchema = require('./projectTeamSchema')
-
+const mongoose = require("mongoose");
+const projectTeamSchema = require("./projectTeamSchema");
 
 const blogSchema = new mongoose.Schema({
   name: String,
   id: String,
   style: {
     type: String,
-    validate:{
-      validator: value =>{
+    validate: {
+      validator: (value) => {
         //TODO: find all styles
-        return value === 'text-white' || value === 'text-bg-black';
+        return value === "text-white" || value === "text-bg-black";
       },
-      message: props => `${props.value} is not in the list`
-    }
+      message: (props) => `${props.value} is not in the list`,
+    },
   },
   description: String,
   type: String,
@@ -22,12 +21,11 @@ const blogSchema = new mongoose.Schema({
   carousel: [String],
   projectTeam: [projectTeamSchema],
   body: String,
-  created: Date
-})
+  created: Date,
+});
 
+const Blog = mongoose.model("blogs", blogSchema);
 
-const Blog =   mongoose.model('blogs', blogSchema )
-
-module.exports ={
-  Blog
-}
+module.exports = {
+  Blog,
+};

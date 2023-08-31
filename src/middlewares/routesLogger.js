@@ -1,7 +1,7 @@
-const { Writable } = require('stream');
-const morganLogger = require('morgan');
+const { Writable } = require("stream");
+const morganLogger = require("morgan");
 
-const wsClients = require('../entities/WsClients');
+const wsClients = require("../entities/WsClients");
 
 class EchoStream extends Writable {
   _write(chunk, enc, next) {
@@ -19,9 +19,9 @@ class EchoStream extends Writable {
 
 const echo = new EchoStream();
 
-morganLogger.token('request-id', (req) => req.id)
+morganLogger.token("request-id", (req) => req.id);
 
 module.exports = morganLogger(
-  ':date[iso] - :remote-addr - :request-id :status :method :url - :total-time ms',
+  ":date[iso] - :remote-addr - :request-id :status :method :url - :total-time ms",
   { stream: echo }
-)
+);

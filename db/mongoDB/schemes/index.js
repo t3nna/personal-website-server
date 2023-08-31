@@ -1,9 +1,6 @@
-const {Blog} = require('./blogScheme')
+const { Blog } = require("./blogScheme");
 const mongoose = require("mongoose");
 
-
-
-module.exports ={
+module.exports = {
   Blog,
-
-}
+};

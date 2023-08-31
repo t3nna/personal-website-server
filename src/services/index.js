@@ -3,14 +3,14 @@ const {
   projectsFile,
   featuredFile,
   setFile,
-  setupFile
+  setupFile,
 } = require("../config");
 const { Blog } = require("../../db/mongoDB/schemes");
 
 async function getAllBlogs() {
   try {
     // const data = await require(blogsFile);
-    const data = await Blog.find()
+    const data = await Blog.find();
     return data;
   } catch (e) {
     console.log(e);
@@ -21,7 +21,7 @@ async function getBlogById(id) {
   console.log(id);
   try {
     // const data = await require(blogsFile);
-    const data = await Blog.where("id").equals(id)
+    const data = await Blog.where("id").equals(id);
 
     // const res = await data.find(blog => {
     //   return blog.id === id;
@@ -46,7 +46,7 @@ async function getProjectById(id) {
   try {
     const data = await require(projectsFile);
 
-    const res = await data.find(project => {
+    const res = await data.find((project) => {
       return project.id === id;
     });
     return res;
@@ -54,7 +54,6 @@ async function getProjectById(id) {
     console.log(e);
   }
 }
-
 
 async function getAllSetup() {
   try {
@@ -71,7 +70,7 @@ async function getSetupById(id) {
   try {
     const data = await require(blogsFile);
 
-    const res = await data.find(item => {
+    const res = await data.find((item) => {
       return item.id === id;
     });
     return res;
@@ -80,12 +79,11 @@ async function getSetupById(id) {
   }
 }
 
-
 module.exports = {
   getBlogById,
   getAllProjects,
   getProjectById,
   getAllBlogs,
   getAllSetup,
-  getSetupById
+  getSetupById,
 };

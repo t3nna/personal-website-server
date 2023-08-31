@@ -1,8 +1,8 @@
-const mongoose = require('mongoose')
+const mongoose = require("mongoose");
 
-const projectTeamSchema =  new mongoose.Schema({
+const projectTeamSchema = new mongoose.Schema({
   name: String,
-  members: [String]
-})
+  members: [String],
+});
 
-module.exports = {projectTeamSchema}
+module.exports = { projectTeamSchema };
